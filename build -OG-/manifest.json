@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "FPL",
+  "name": "Fantasy Premier League Live Extension",
   "description": "Fantasy Premier League updates and more",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "browser_action": {
     "default_popup": "index.html",
     "default_title": "Open the popup"
@@ -12,6 +12,6 @@
     "48": "logo-small.png",
     "128": "logo-small.png"
   },
-  "content_security_policy": "script-src 'self' 'sha256-Z9FsL3GJAoLNVxk5g9cHewuu7H8wEEPcPomLRevIfSw=' https: //users.premierleague.com/accounts/login/ https://fantasy.premierleague.com/ https://fantasy.premierleague.com/api/my-team/; object-src 'self'",
+  "content_security_policy": "script-src 'self' 'sha256-Z9FsL3GJAoLNVxk5g9cHewuu7H8wEEPcPomLRevIfSw='; object-src 'self'",
   "permissions": []
 }
